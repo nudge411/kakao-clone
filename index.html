@@ -6,10 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
   <title>Friends</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <div class="hearder__top">
+  <header class='top-header'>
+    <div class="header__top">
       <div class="header__column">
         <i class="fas fa-plane"></i>
         <i class="fas fa-wifi"></i>
@@ -41,14 +42,14 @@
       <input type="text" placeholder="Find friends, chats, Plus Friends">
     </div>
     <section class="friends__section">
-      <header class='friends__section-hearder'>
+      <header class='friends__section-header'>
         <h6 class="friends__section-title">My Profile</h6>
       </header>
       <div class="friends__section-rows">
         <div class="friends__section-row">
-          <a href="profile.html">
-            <img src="images/avatar.png">
-            <span class="friends__section-name">Nicolas</span>
+          <img src="images/avatar.png">
+          <a href="profile.html" class="friends__section-name">
+            Nicolas
           </a>
         </div>
         <div class="friends__section-row">
@@ -58,13 +59,13 @@
       </div>
     </section>
     <section class="friends__section">
-      <header class='friends__section-hearder'>
+      <header class='friends__section-header'>
         <h6 class="friends__section-title">Friends</h6>
       </header>
       <div class="friends__section-rows">
-        <div class="friends__section-row">
+        <div class="friends__section-row with-tagline">
           <div class="friends__section-column">
-            <img src="" alt="">
+            <img src="images/avatar.png">
             <span class="friends__section-name">Nicolas</span>
           </div>
           <span class="friends__section-tagline">
